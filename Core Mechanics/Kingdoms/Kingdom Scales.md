@@ -1,7 +1,9 @@
 # Kingdom Scales
 
 Might ⇔ Wealth
+
 Law ⇔ Sovereignty
+
 Prestige ⇔ Infamy
 
 ## 100 years ago
