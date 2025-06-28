@@ -10,7 +10,7 @@ Prestige ⇔ Infamy
 
 | Roll | Event           | Description                                                              | Effect |
 | ---- | --------------- | ------------------------------------------------------------------------ | ------ |
-| 1    | **Blessing**    | A great power gave your kingdom something special.                       | TODO:  |
+| 1    | **Blessing**    | A great power gave your kingdom something special.                       | TODO  |
 | 2    | **Catastrophe** | Your kingdom suffered a natural disaster.                                |        |
 | 3    | **Doom**        | A prediction was made detailing the fall of your kingdom.                |        |
 | 4    | **Monster**     | A malevolent entity was discovered in your kingdom.                      |        |
@@ -21,7 +21,7 @@ Prestige ⇔ Infamy
 
 | Roll | Event             | Description                                                              | Effect |
 | ---- | ----------------- | ------------------------------------------------------------------------ | ------ |
-| 1    | **Ascent**        | The citizens of your kingdom promoted a new cultural movement.           |        |
+| 1    | **Ascent**        | The citizens of your kingdom promoted a new cultural movement.           | TODO    |
 | 2    | **Collaboration** | Your kingdom participated in a multi-kingdom effort.                     |        |
 | 3    | **Conquest**      | Your kingdom won a war against an outside threat.                        |        |
 | 4    | **Revolt**        | Citizens of your kingdom rose up and caused harm.                        |        |
@@ -37,4 +37,4 @@ Prestige ⇔ Infamy
 | 3    | **Proclamation** | A controversial statement from an important figure caused division among the people. | +d6 Infamy      |
 | 4    | **Victory**      | You kingdom won in major battle against an outside threat.                           | +d6 Might       |
 | 5    | **Villain**      | A major criminal was caught and punished.                                            | +d6 Law         |
-| 6    |                  |                                                                                      |                 |
+| 6    |  TODO           |                                                                                      |                 |
