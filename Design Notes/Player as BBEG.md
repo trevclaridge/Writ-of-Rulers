@@ -1,0 +1,23 @@
+# Player as BBEG
+
+- have them start with an agenda
+  - trying to own a specific set of landmarks in order to complete some narrative end
+    - i.e. must own all temple landmarks in order to create a portal to another plane of existence
+  - work a spy into every kingdom
+    - not sure how this would work
+    - maybe they have a special writ, Infiltrate, which has special conditions on when it can be used; their goal is to be able to Infiltrate on every other kingdom
+  - the obvious one, conquer the whole map
+    - this one is too competitive, I think
+- give their units special properties
+  - each unit is worth 2, instead of 1
+  - units can move 2 provinces in a single round
+  - units can share provinces with other units
+    - maybe they can leapfrog their own kingdom's units
+    - sharing increases the strength of the province, making it hard to dislodge any unit of that province
+      - if a kingdom wants to dislodge a BBEG unit that is sharing a province with one of their units, they have to dislodge themselves too, which could lead to both units' removal
+  - some sort of "infecting" mechanic, where the BBEG can take control of another kingdom's unit if they meet some situation
+    - dislodged by a BBEG unit
+    - spend a special "Infect" writ
+  - units can freely teleport from anywhere to specific provinces on the map
+- allow this player to "eavesdrop" on the Send a Delegate conversations of other kingdoms
+  - DM would probably need to relay the messages so as not to inform the participating kingdoms that their messages are being "heard"
