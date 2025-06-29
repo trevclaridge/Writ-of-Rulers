@@ -1,0 +1,52 @@
+# Appendices
+
+- Resources to promote investment
+	- Have a world map. To help players relate their kingdoms to the grander scheme of the world.
+		- Building allies with nearby kingdoms
+		- Understanding distance for moving resources
+		- Using geography to influence culture and haves/needs.
+		- Have a DM controlled enemy kingdom start in a desert corner of the map and slowly encroach on allied land.
+	- Kingdom sheet with fill-in text boxes of things that make that kingdom unique.
+		- Culture
+			- Religions
+			- Population makeup
+			- Holidays
+			- Quirks
+		- Resources
+			- What they have
+			- What they need
+			- Who has what?
+				- Merchants?
+				- Nobles?
+				- Spread amongst the people?
+		- Landmarks
+		- Historical events
+	- Links to free online tools
+		- Coat-of-Arms creator
+		- Flag creator
+		- Map making/generating tools
+- How to adapt setting
+	- Corpos
+	- Pirate gangs
+	- Real world governments
+	- Alien races
+	- City guilds
+	- Old ladies in a North Carolina neighborhood (thanks Abby)
+- Discussion of size
+	- Make sure your kingdom/faction/city has enough people to still be referred to by the collective name.
+	- Kingdoms take their turn as one massive entity. Try to avoid paying too close attention to a kingdom’s ruler, president, etc. They may give the orders in the fiction of the world, but it is the kingdom at large that takes the game actions. It is what the kingdom does, not what the ruler of the kingdom said to do.
+- Online Play Tools
+	- Online maps
+		- Roll20
+		- Incarnate
+	- Pre-formatted text for messages
+		- Discord
+		- Texting
+	- Discord Server Template
+		- channels
+		- rules
+		- roles
+- Competitive VS Collaborative
+	- How to make the game kinder (collaborative)
+		- asymmetric system where each kingdom can only perform one the base writs
+	- Making sure competitive play is still fun
