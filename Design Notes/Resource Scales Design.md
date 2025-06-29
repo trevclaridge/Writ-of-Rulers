@@ -33,11 +33,11 @@ Order ⇔ Chaos
 ## Alternative Tracker History Splits
 
 - Time based
-  - 100 years ago
-  - 1 year ago
-  - 1 week ago
+	- 100 years ago
+	- 1 year ago
+	- 1 week ago
 - Who knows about the event
-  - Everybody knows, including regular citizenry
-  - only the informed know
-  - only you know/only locals know
+	- Everybody knows, including regular citizenry
+	- only the informed know
+	- only you know/only locals know
 - A history table for each tracker (see above)

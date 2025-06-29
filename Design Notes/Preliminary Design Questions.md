@@ -5,10 +5,10 @@
 - negotiate
 - form alliances
 - world-build their kingdom
-  - discover new things
-  - create landmarks
-  - play NPCs
-  - create/write important events
+	- discover new things
+	- create landmarks
+	- play NPCs
+	- create/write important events
 - help players of a side-car game (or hinder them)
 
 ## What do I want player to want?

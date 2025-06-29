@@ -3,11 +3,11 @@
 ## The Mysteries
 
 - The Great Pillars are dead.
-  - Obelisks that once channeled magic. We used to use them for communication; we could send messages across vast distances. Now they lay dormant, severing our nations' correspondence.
+	- Obelisks that once channeled magic. We used to use them for communication; we could send messages across vast distances. Now they lay dormant, severing our nations' correspondence.
 - The Tangle blocks passage in the north.
-  - A over-dense forest. Trees climb over each other to get at the light--the lowest layers have not seen illumination for millennia. Those who venture into the undergrowth do not return.
+	- A over-dense forest. Trees climb over each other to get at the light--the lowest layers have not seen illumination for millennia. Those who venture into the undergrowth do not return.
 - The world of dreams seeps into the world of the waking.
-  - People all over have been experiencing strange dreams. Images of what's to come perhaps, or manifestations?
+	- People all over have been experiencing strange dreams. Images of what's to come perhaps, or manifestations?
 
 ## The Details
 
