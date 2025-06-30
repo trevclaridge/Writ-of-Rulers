@@ -14,6 +14,7 @@ This game would not exist without the prior art from a multitude of incredible c
 - [**Mothership** from Tuesday Knight Games](https://www.tuesdayknightgames.com/pages/mothership-rpg)
 - [**Honor + Intrigue** by Chris Rutkowsky](https://www.drivethrurpg.com/en/product/99286/honor-intrigue)
 - **Diplomacy** by Allan B. Calhamer
+- [**Cataphracts** by Sam Sorensen](https://samsorensen.blot.im/cataphracts-design-diary-1)
 
 ## Movies and TV
 
@@ -46,3 +47,4 @@ This game would not exist without the prior art from a multitude of incredible c
 - [The D&D 5e supplement **Krakenfall** by DaegonDesign](https://daegondesign.gumroad.com/l/mKNRr)
 - [**Yes Indie'd** with Thomas Manuel](https://www.patreon.com/indierpg)
 - [**Design Games** by ND Paoletta and Will Hindmarch](https://designgames.simplecast.com/)
+- [**The Brain Trust** by Adam Vass and Will Jobst](http://linktr.ee/thebraintrust)
