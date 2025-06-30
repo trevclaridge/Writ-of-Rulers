@@ -15,6 +15,7 @@ This game would not exist without the prior art from a multitude of incredible c
 - [**Honor + Intrigue** by Chris Rutkowsky](https://www.drivethrurpg.com/en/product/99286/honor-intrigue)
 - **Diplomacy** by Allan B. Calhamer
 - [**Cataphracts** by Sam Sorensen](https://samsorensen.blot.im/cataphracts-design-diary-1)
+- [**Don't Get Got** from Big Potato Games](https://bigpotato.com/products/dont-get-got)
 
 ## Movies and TV
 
