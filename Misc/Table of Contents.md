@@ -1,0 +1,71 @@
+# Table of Contents
+
+- Author’s Note
+- Introduction
+	- What is Writ of Rulers?
+		- What is Writ of Rulers trying to do?
+		- What can players expect?
+		- Who is Writ of Rulers for?
+			- Player Archetypes
+	- Formats of Play
+		- Standalone
+		- Sidecar
+- Basic Rules
+	- Kingdoms and Rulers
+		- Kingdoms
+		- Rulers
+	- Courts
+	- Resource Scales
+		- Wealth/Might
+		- Law/Sovereignty
+		- Prestige/Infamy
+	- Rounds
+		- How long is a round?
+		- Anatomy of a Round
+			- Objectives
+			- Writs
+				- Advance/Create an Agenda
+				- Change the Objective
+				- Deploy a Spy Network
+				- Make a Big Play
+				- Make a Prediction
+				- Order a Unit
+				- Send a Delegate
+			- Evaluating Success of the Objective
+	- The Map
+		- Provinces
+			- Land
+			- Water
+			- Canal
+		- Borders
+			- Kingdom Perimeters
+		- Units
+			- Armies
+			- Fleets
+		- Places of Interest
+- Combat
+	- Attacking
+	- Supporting
+	- Dislodging
+	- Holding
+	- Parleying
+- Game Setup
+	- A World of Words
+	- General Chats
+		- World Events
+		- World Market
+	- Private Chats
+- Creating a Ruler
+	- Creating a Court
+	- Example Ruler and Court
+- Creating a Kingdom
+	- Kingdom Histories
+	- Example Kingdom
+- Running the Game
+	- Game Master Principles
+	- Dilemmas
+	- The Big Threat
+- Special Thanks
+	- Friends’ Links
+	- Inspirations
+- Index
