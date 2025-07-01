@@ -84,3 +84,46 @@ How do we make people want to keep their trackers on the middle line? We give th
 Maybe instead of the trackers being number based, it's just a line of checkpoints. ‘Mark 2 Might’ so you fill in the circle 2 more towards the Might side.
 
 ---
+
+I need to figure out how many pips in each direction a Kingdom Scale can go.
+
+A couple options (each option assumes at least one pip for zero):
+
+- 6
+	- this means that there are 13 pips in all.
+	- Benefits
+		- 6 is the max rolled on a single die
+		- it's a smaller number and therefore easier to keep track of (useful for onboarding players new to TTRPGs).
+	- Drawbacks
+		- Doesn't allow Historical Events to be rolled using anything but a d6 (i.e. the idea to have events from 100 years ago be 3d6, and 10 years ago be 2d6 cant be done)
+		- small number doesn't allow alot of the swingyness I want. Even when a Resource is maxed-out (at 6), it is not that far away from 0 and can probably be fixed in 1, maybe 2, rounds. I'd rather a maxed Resource be a little harder to equalize.
+- 10
+	- means there are 21 pips in all
+	- probably my favorite right now, only because it sounds like a good number in my head
+	- Benefits
+		- still a small number, but not so small that it feels insignificant
+		- something about an even number, especially a multiple of 10, just feels inviting
+	- Drawbacks
+		- average roll of 3d6 is 10.5, with the capability of rolling all the way up to 18, so this option would still not allow for a 3d6 Historical Event roll
+			- an alternative like 1d6 + 3 could be an option. Max would be 9 which means one extra pip to be achieved, for use in mechanics that trigger/are only available when a Resource is maxed out. Probability of being at 9 would be 1/6 though, which is probably a little too often
+		- one of the mechanics currently being considered is that every pip into the Might direction allows the kingdom to have an extra warefare unit. This could very easily balloon into way too many units on the game map, in the eventuality that 1 (or all!) kingdoms have their Might Resource maxed out.
+- 15
+	- means 31 pips in all
+	- Benefits
+		- a bigger number like this allows for kingdoms to have wildly different scales, which I believe would make for an interesting game
+		- would allow for a Historical Event roll of at least 2d6
+	- Drawbacks
+		- an even greater example of the Might Resource effect of having too many warefare units on the map.
+		- just has a busy feel; would likely make for a messy kingdom sheet
+
+---
+
+- summit being the start of the game
+
+---
+
+- variable dice of to roll for each historical event table
+
+---
+
+- change courtesans into factions, groups of people rather than one specific person
