@@ -118,11 +118,17 @@ A couple options (each option assumes at least one pip for zero):
 
 ---
 
-- summit being the start of the game
+Have the game start with a summit with all the kingdoms in attendence. Allows for the kingdoms/rulers introduce themselves to each other. Can also be used by the GM as a jumping off point for major plots.
+
+- Why was the summit called? What is it for? What is being discussed?
+- Does something happen *during* the summit that causes or foreshadows the coming Big Threat.
+- Maybe not *all* kingdoms are in attendence; what does it say about that kingdom that it did not come to the summit despite being invited.
+
+This could also be the only expected "session" of the game for those that want to organize one, especially allowing a good space for something like a session zero. Perhaps some tables routinely call summits and play them out with one-shot sessions when people's generally busy schedules line up.
 
 ---
 
-- variable dice of to roll for each historical event table
+- variable dice to roll for each historical event table
 
 ---
 
