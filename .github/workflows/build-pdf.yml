@@ -15,7 +15,7 @@ jobs:
         uses: shrink/actions-document-publish@v1
         id: publish-document
         with:
-          sources: 'README.md "Core Mechanics/**/*.md" "GM Focused/**/*.md"'
+          sources: "README.md"
       - name: Upload PDF
       - uses: actions/upload-artifact@v4
         with:
