@@ -11,6 +11,10 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v4
 
+      - name: Get Writ of Rulers File Order
+        id: file_order
+        run: echo "ORDER=$(cat file_order.txt)" >> $GITHUB_OUTPUT
+
       - name: Convert Files with Pandoc
         uses: docker://pandoc/extra
         with:
@@ -19,11 +23,7 @@ jobs:
             --to=pdf
             --output="Writ of Rulers.pdf"
             -H deeplists.tex
-            README.md
-            "Misc/Table of Contents.md"
-            "Core Mechanics/Formats of Play/Formats of Play.md"
-            "Core Mechanics/Formats of Play/Formats of Play/Standalone.md"
-            "Core Mechanics/Formats of Play/Formats of Play/Sidecar.md"
+            ${{ steps.file_order.outputs.version }}
 
       - name: Upload PDF as Artifact
         uses: actions/upload-artifact@v4

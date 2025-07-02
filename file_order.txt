@@ -1,0 +1,5 @@
+README.md
+"Misc/Table of Contents.md"
+"Core Mechanics/Formats of Play/Formats of Play.md"
+"Core Mechanics/Formats of Play/Formats of Play/Standalone.md"
+"Core Mechanics/Formats of Play/Formats of Play/Sidecar.md"
