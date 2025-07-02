@@ -13,7 +13,9 @@ jobs:
 
       - name: Get Writ of Rulers File Order
         id: file_order
-        run: echo "order=$(cat file_order.txt)" >> $GITHUB_OUTPUT
+        uses: jaywcjlove/github-action-read-file@main
+        with:
+          path: file_order.txt
 
       - name: Convert Files with Pandoc
         uses: docker://pandoc/extra
@@ -23,7 +25,7 @@ jobs:
             --to=pdf
             --output="Writ of Rulers.pdf"
             -H deeplists.tex
-            ${{ steps.file_order.outputs.order }}
+            ${{ steps.file_order.outputs.content }}
 
       - name: Upload PDF as Artifact
         uses: actions/upload-artifact@v4
