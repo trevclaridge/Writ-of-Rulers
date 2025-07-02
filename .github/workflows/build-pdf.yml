@@ -1,18 +1,22 @@
 # This action generates a PDF from all of the game's writing.
 
 name: Build PDF
-on: push
+
+on: [push]
 
 jobs:
-  converttopdf:
-    name: Build PDF
+  publish:
     runs-on: ubuntu-latest
+    name: Build PDF
     steps:
-      - uses: actions/checkout@v3
-      - uses: baileyjm02/markdown-to-pdf@v1
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Publish PDF Document
+        uses: shrink/actions-document-publish@v1
+        id: publish-document
         with:
-          input_dir: Core Mechanics/**/*.md
-          output_dir: PDFs
+          sources: 'README.md "Core Mechanics/**/*.md" "GM Focused/**/*.md"''
+      - name: Upload PDF
       - uses: actions/upload-artifact@v4
         with:
           name: "Writ of Rulers"
