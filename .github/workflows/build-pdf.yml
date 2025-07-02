@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Convert Files with Pandoc
-        uses: docker://pandoc/latex
+        uses: docker://pandoc/extra
         with:
           args: >-
             --from=markdown
