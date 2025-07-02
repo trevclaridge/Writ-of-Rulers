@@ -19,6 +19,7 @@ jobs:
             --to=pdf
             --output="Writ of Rulers.pdf"
             README.md
+            "Misc/Table of Contents.md"
 
       - name: Upload PDF as Artifact
         uses: actions/upload-artifact@v4
