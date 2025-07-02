@@ -4,6 +4,9 @@ name: Build PDF
 
 on: push
 
+env:
+  GITHUB_TOKEN: ${{ github.token }}
+
 jobs:
   publish:
     runs-on: ubuntu-latest
