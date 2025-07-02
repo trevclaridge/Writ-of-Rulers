@@ -1,0 +1,23 @@
+# This action generates a PDF from all of the game's writing.
+
+name: Build PDF
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  converttopdf:
+    name: Build PDF
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: baileyjm02/markdown-to-pdf@v1
+        with:
+          input_dir: "Core Mechanics"
+          output_dir: PDFs
+          build_html: false
+      - uses: actions/upload-artifact@v3
+        with:
+          name: docs
+          path: PDFs
