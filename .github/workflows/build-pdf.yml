@@ -18,6 +18,7 @@ jobs:
             --from=markdown
             --to=pdf
             --output="Writ of Rulers.pdf"
+            -H deeplists.tex
             README.md
             "Misc/Table of Contents.md"
 
