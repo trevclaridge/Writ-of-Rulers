@@ -14,5 +14,9 @@ jobs:
           args: >- # allows you to break string into multiple lines
             --from=markdown
             --to=pdf
-            --output="Writ of Rulers.pdf"
+            --output="output/Writ of Rulers.pdf"
             README.md
+      - uses: actions/upload-artifact@v4
+        with:
+          name: "Writ of Rulers.pdf"
+          path: output
