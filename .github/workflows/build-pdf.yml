@@ -17,19 +17,22 @@ jobs:
         with:
           path: file_order.txt
 
-      - name: Convert Files with Pandoc
-        uses: docker://pandoc/extra
-        with:
-          args: >-
-            --from=markdown
-            --to=pdf
-            --output="Writ of Rulers.pdf"
-            -H deeplists.tex
-            ${{ steps.file_order.outputs.content }}
+      - name: Echo Contents
+        run: echo ${{ steps.file_order.outputs.content }}
+          echo "${${{ steps.file_order.outputs.content }}//$'\n'/' '}"
+      # - name: Convert Files with Pandoc
+      #   uses: docker://pandoc/extra
+      #   with:
+      #     args: >-
+      #       --from=markdown
+      #       --to=pdf
+      #       --output="Writ of Rulers.pdf"
+      #       -H deeplists.tex
+      #       ${{ steps.file_order.outputs.content }}
 
-      - name: Upload PDF as Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: "Writ of Rulers"
-          path: "Writ of Rulers.pdf"
-          overwrite: true
+      # - name: Upload PDF as Artifact
+      #   uses: actions/upload-artifact@v4
+      #   with:
+      #     name: "Writ of Rulers"
+      #     path: "Writ of Rulers.pdf"
+      #     overwrite: true
