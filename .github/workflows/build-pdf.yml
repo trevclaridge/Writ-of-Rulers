@@ -8,6 +8,7 @@ jobs:
   convert_via_pandoc:
     runs-on: ubuntu-22.04
     steps:
+      - uses: actions/checkout@v4
       - uses: docker://pandoc/latex
         with:
           args: >- # allows you to break string into multiple lines
