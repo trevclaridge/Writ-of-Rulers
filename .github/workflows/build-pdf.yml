@@ -4,25 +4,14 @@ name: Build PDF
 
 on: push
 
-env:
-  GITHUB_TOKEN: ${{ github.token }}
-
 jobs:
-  publish:
-    runs-on: ubuntu-latest
-    name: Build PDF
+  convert_via_pandoc:
+    runs-on: ubuntu-22.04
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-
-      - name: Publish PDF Document
-        uses: shrink/actions-document-publish@v1
-        id: publish-document
+      - uses: docker://pandoc/latex
         with:
-          sources: "Misc/Inspirations.md"
-
-      - name: Upload PDF
-        uses: actions/upload-artifact@v4
-        with:
-          name: "Writ of Rulers"
-          path: PDFs
+          args: >- # allows you to break string into multiple lines
+            --from=markdown
+            --to=pdf
+            --output="Writ of Rulers.pdf"
+            README.md
