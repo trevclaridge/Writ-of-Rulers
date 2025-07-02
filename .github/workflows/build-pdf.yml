@@ -19,7 +19,7 @@ jobs:
             --to=pdf
             --output="Writ of Rulers.pdf"
             -H deeplists.tex
-            -pdf-engine=xelatex
+            --pdf-engine=xelatex
             README.md
             "Core Mechanics/Formats of Play/Formats of Play.md"
             "Core Mechanics/Formats of Play/Formats of Play/Standalone.md"
