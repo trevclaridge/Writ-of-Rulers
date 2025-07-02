@@ -19,7 +19,7 @@ jobs:
         uses: shrink/actions-document-publish@v1
         id: publish-document
         with:
-          sources: Core Mechanics/**/*.md
+          sources: "Core Mechanics/**/*.md"
 
       - name: Upload PDF
         uses: actions/upload-artifact@v4
