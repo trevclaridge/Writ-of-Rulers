@@ -10,14 +10,16 @@ jobs:
     name: Build PDF
     steps:
       - name: Checkout
-      - uses: actions/checkout@v3
+        uses: actions/checkout@v3
+
       - name: Publish PDF Document
         uses: shrink/actions-document-publish@v1
         id: publish-document
         with:
           sources: "README.md"
+
       - name: Upload PDF
-      - uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v4
         with:
           name: "Writ of Rulers"
           path: PDFs
