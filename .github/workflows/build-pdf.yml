@@ -23,7 +23,7 @@ jobs:
            } >> "$GITHUB_OUTPUT"
 
       - name: Convert Files with Pandoc
-        uses: docker://pandoc/extra
+        uses: docker://fpod/pandoc-weasyprint
         with:
           args: >-
             --from=markdown
@@ -31,7 +31,7 @@ jobs:
             --output="Writ of Rulers.pdf"
             -H deeplists.tex
             -V papersize:letter
-            --pdf-engine=pdflatex
+            --pdf-engine=weasyprint
             ${{ steps.get_file_input.outputs.FILE_ORDER }}
 
       - name: Upload PDF as Artifact
