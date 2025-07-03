@@ -17,6 +17,7 @@ jobs:
           {
             echo 'FILE_ORDER<<EOF'
             echo "$(cat file_order.txt)"
+            echo
             echo EOF
            } >> "$GITHUB_OUTPUT"
 
