@@ -47,3 +47,5 @@ jobs:
         with:
           artifacts: "Writ of Rulers.pdf"
           tag: "Writ_of_Rulers_v${{ github.run_number }}"
+          name: "Writ of Rulers v${{ github.run_number }}"
+          makeLatest: true
