@@ -30,7 +30,7 @@ jobs:
           args: >-
             --from=markdown
             --to=html
-            --output="Writ of Rulers.pdf"
+            --output="Writ_of_Rulers_v${{ github.run_number }}.pdf"
             -V papersize:letter
             --pdf-engine=weasyprint
             ${{ steps.get_file_input.outputs.FILE_ORDER }}
@@ -39,13 +39,13 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: "Writ of Rulers"
-          path: "Writ of Rulers.pdf"
+          path: "Writ_of_Rulers_v${{ github.run_number }}.pdf"
           overwrite: true
 
       - name: Upload PDF as Artifact
         uses: ncipollo/release-action@v1
         with:
-          artifacts: "Writ of Rulers.pdf"
+          artifacts: "Writ_of_Rulers_v${{ github.run_number }}.pdf"
           tag: "Writ_of_Rulers_v${{ github.run_number }}"
           name: "Writ of Rulers v${{ github.run_number }}"
           makeLatest: true
