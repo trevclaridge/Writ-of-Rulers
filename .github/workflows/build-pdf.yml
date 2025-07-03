@@ -3,10 +3,7 @@
 
 name: Build PDF
 
-on:
-  push:
-    tags:
-      - "*"
+on: push
 
 jobs:
   convert_via_pandoc:
@@ -47,3 +44,4 @@ jobs:
         uses: ncipollo/release-action@v1
         with:
           artifacts: "Writ of Rulers.pdf"
+          tag: "generated"
