@@ -30,6 +30,7 @@ jobs:
             --to=pdf
             --output="Writ of Rulers.pdf"
             -H deeplists.tex
+            -t html
             --pdf-engine=xelatex
             -V papersize:letter
             ${{ steps.get_file_input.outputs.FILE_ORDER }}
