@@ -33,9 +33,12 @@ jobs:
             --pdf-engine=weasyprint
             ${{ steps.get_file_input.outputs.FILE_ORDER }}
 
-      - name: Upload PDF as Artifact
-        uses: actions/upload-artifact@v4
+      - name: Upload PDF as Release
+        # uses: actions/upload-artifact@v4
+        # with:
+        #   name: "Writ of Rulers"
+        #   path: "Writ of Rulers.pdf"
+        #   overwrite: true
+        uses: ncipollo/release-action@v1
         with:
-          name: "Writ of Rulers"
-          path: "Writ of Rulers.pdf"
-          overwrite: true
+          artifacts: "Writ of Rulers.pdf"
