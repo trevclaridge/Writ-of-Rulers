@@ -29,7 +29,6 @@ jobs:
             --from=markdown
             --to=html
             --output="Writ of Rulers.pdf"
-            -H deeplists.tex
             -V papersize:letter
             --pdf-engine=weasyprint
             ${{ steps.get_file_input.outputs.FILE_ORDER }}
