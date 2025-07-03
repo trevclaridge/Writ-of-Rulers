@@ -14,11 +14,9 @@ jobs:
       - name: Get File Order
         id: get_file_input
         run: |
-          {
-            echo 'FILE_ORDER<<EOF'
-            cat file_order.txt
-            echo EOF
-           } >> "$GITHUB_OUTPUT"
+          echo 'FILE_ORDER<<EOF' >> "$GITHUB_OUTPUT"
+          echo '$(cat file_order.txt) >> "$GITHUB_OUTPUT"
+          echo EOF >> "$GITHUB_OUTPUT"
 
       - name: Convert Files with Pandoc
         uses: docker://pandoc/extra
