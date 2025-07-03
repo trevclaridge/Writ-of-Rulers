@@ -27,10 +27,9 @@ jobs:
         with:
           args: >-
             --from=markdown
-            --to=pdf
+            --to=html
             --output="Writ of Rulers.pdf"
             -H deeplists.tex
-            -t html
             -V papersize:letter
             --pdf-engine=tectonic
             ${{ steps.get_file_input.outputs.FILE_ORDER }}
