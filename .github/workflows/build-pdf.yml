@@ -12,22 +12,6 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v4
 
-      - name: Install dependencies
-        run: |
-          sudo apt-get update -y \
-
-          # Install the full version 
-          # sudo apt-get install texlive-full -y
-          # or only your required latex packages 
-          sudo apt install -y \
-              texlive-base \
-              texlive-latex-base \
-              texlive-latex-recommended \
-              texlive-latex-extra \
-              texlive-fonts-recommended \
-              latexmk \
-              newunicodechar
-
       - name: Get File Order
         id: get_file_input
         run: |
