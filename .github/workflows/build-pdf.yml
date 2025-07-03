@@ -1,4 +1,5 @@
 # This action generates a PDF from all of the game's writing.
+# Uses file_order.txt to determine the file input and order
 
 name: Build PDF
 
