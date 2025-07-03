@@ -30,6 +30,8 @@ jobs:
           args: >-
             --from=markdown
             --to=html
+            --standalone
+            --css-"styles.css"
             --output="Writ_of_Rulers_v${{ github.run_number }}.pdf"
             -V papersize:letter
             --pdf-engine=weasyprint
