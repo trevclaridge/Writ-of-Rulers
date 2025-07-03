@@ -133,3 +133,9 @@ This could also be the only expected "session" of the game for those that want t
 ---
 
 - change courtesans into factions, groups of people rather than one specific person
+
+---
+
+Wandering behemoths. These would be represented by single units in the game map that are not associated with any kingdom. They have a base strength of 2 or greater, and their movement is random (roll a d6 and travel in that direction via the hex grid).
+
+- add a kingdom class that can create a behemoth unit during one of the later Ages.
