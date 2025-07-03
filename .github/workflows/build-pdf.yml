@@ -1,0 +1,42 @@
+# This action generates a PDF from all of the game's writing.
+# Uses file_order.txt to determine the file input and order
+
+name: Build PDF
+
+on: push
+
+jobs:
+  convert_via_pandoc:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: Get File Order
+        id: get_file_input
+        run: |
+          {
+            echo 'FILE_ORDER<<EOF'
+            echo "$(cat file_order.txt | tr '\r\n' ' ')"
+            echo
+            echo EOF
+           } >> "$GITHUB_OUTPUT"
+
+      - name: Convert Files with Pandoc
+        uses: docker://pandoc/extra
+        with:
+          args: >-
+            --from=markdown
+            --to=pdf
+            --output="Writ of Rulers.pdf"
+            -H deeplists.tex
+            --pdf-engine=xelatex
+            -V papersize:letter
+            ${{ steps.get_file_input.outputs.FILE_ORDER }}
+
+      - name: Upload PDF as Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: "Writ of Rulers"
+          path: "Writ of Rulers.pdf"
+          overwrite: true
