@@ -3,11 +3,16 @@
 
 name: Build PDF
 
-on: push
+on:
+  push:
+    tags:
+      - "*"
 
 jobs:
   convert_via_pandoc:
     runs-on: ubuntu-22.04
+    permissions:
+      contents: write
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v4
