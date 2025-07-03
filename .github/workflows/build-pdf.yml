@@ -8,6 +8,8 @@ on: push
 jobs:
   convert_via_pandoc:
     runs-on: ubuntu-22.04
+    permissions:
+      contents: write
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v4
@@ -33,9 +35,17 @@ jobs:
             --pdf-engine=weasyprint
             ${{ steps.get_file_input.outputs.FILE_ORDER }}
 
-      - name: Upload PDF as Artifact
+      - name: Upload PDF as Release
         uses: actions/upload-artifact@v4
         with:
           name: "Writ of Rulers"
           path: "Writ of Rulers.pdf"
           overwrite: true
+
+      - name: Upload PDF as Artifact
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: "Writ of Rulers.pdf"
+          tag: "Writ_of_Rulers_v${{ github.run_number }}"
+          name: "Writ of Rulers v${{ github.run_number }}"
+          makeLatest: true
