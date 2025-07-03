@@ -26,7 +26,7 @@ jobs:
               texlive-latex-extra \
               texlive-fonts-recommended \
               latexmk \
-              lmodern
+              newunicodechar
 
       - name: Get File Order
         id: get_file_input
