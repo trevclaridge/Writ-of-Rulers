@@ -21,7 +21,7 @@ jobs:
             -H deeplists.tex
             --pdf-engine=xelatex
             -V papersize:letter
-            -V 'mainfont:DejaVuSerif'
+            -V 'mainfont:Segoe UI Symbol'
             README.md
             "Core Mechanics/Formats of Play/Formats of Play.md"
             "Core Mechanics/Formats of Play/Formats of Play/Standalone.md"
