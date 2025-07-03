@@ -16,8 +16,7 @@ jobs:
         run: |
           {
             echo 'FILE_ORDER<<EOF'
-            echo "$(cat file_order.txt)"
-            echo
+            cat file_order.txt
             echo EOF
            } >> "$GITHUB_OUTPUT"
 
