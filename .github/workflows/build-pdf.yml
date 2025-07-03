@@ -12,6 +12,10 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v4
 
+      - name: Install Dependencies
+        run: |
+          sudo apt install weasyprint
+
       - name: Get File Order
         id: get_file_input
         run: |
