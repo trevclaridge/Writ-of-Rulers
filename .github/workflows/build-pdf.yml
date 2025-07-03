@@ -36,7 +36,7 @@ jobs:
             -H deeplists.tex
             -t html
             -V papersize:letter
-            --pdf-engine=xelatex
+            --pdf-engine=tectonic
             ${{ steps.get_file_input.outputs.FILE_ORDER }}
 
       - name: Upload PDF as Artifact
