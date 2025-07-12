@@ -96,7 +96,7 @@ A couple options (each option assumes at least one pip for zero):
 		- it's a smaller number and therefore easier to keep track of (useful for onboarding players new to TTRPGs).
 	- Drawbacks
 		- Doesn't allow Historical Events to be rolled using anything but a d6 (i.e. the idea to have events from 100 years ago be 3d6, and 10 years ago be 2d6 cant be done)
-		- small number doesn't allow alot of the swingyness I want. Even when a Resource is maxed-out (at 6), it is not that far away from 0 and can probably be fixed in 1, maybe 2, rounds. I'd rather a maxed Resource be a little harder to equalize.
+		- small number doesn't allow a lot of the swingyness I want. Even when a Resource is maxed-out (at 6), it is not that far away from 0 and can probably be fixed in 1, maybe 2, rounds. I'd rather a maxed Resource be a little harder to equalize.
 - 10
 	- means there are 21 pips in all
 	- probably my favorite right now, only because it sounds like a good number in my head
@@ -106,23 +106,23 @@ A couple options (each option assumes at least one pip for zero):
 	- Drawbacks
 		- average roll of 3d6 is 10.5, with the capability of rolling all the way up to 18, so this option would still not allow for a 3d6 Historical Event roll
 			- an alternative like 1d6 + 3 could be an option. Max would be 9 which means one extra pip to be achieved, for use in mechanics that trigger/are only available when a Resource is maxed out. Probability of being at 9 would be 1/6 though, which is probably a little too often
-		- one of the mechanics currently being considered is that every pip into the Might direction allows the kingdom to have an extra warefare unit. This could very easily balloon into way too many units on the game map, in the eventuality that 1 (or all!) kingdoms have their Might Resource maxed out.
+		- one of the mechanics currently being considered is that every pip into the Might direction allows the kingdom to have an extra warfare unit. This could very easily balloon into way too many units on the game map, in the eventuality that 1 (or all!) kingdoms have their Might Resource maxed out.
 - 15
 	- means 31 pips in all
 	- Benefits
 		- a bigger number like this allows for kingdoms to have wildly different scales, which I believe would make for an interesting game
 		- would allow for a Historical Event roll of at least 2d6
 	- Drawbacks
-		- an even greater example of the Might Resource effect of having too many warefare units on the map.
+		- an even greater example of the Might Resource effect of having too many warfare units on the map.
 		- just has a busy feel; would likely make for a messy kingdom sheet
 
 ---
 
-Have the game start with a summit with all the kingdoms in attendence. Allows for the kingdoms/rulers introduce themselves to each other. Can also be used by the GM as a jumping off point for major plots.
+Have the game start with a summit with all the kingdoms in attendance. Allows for the kingdoms/rulers introduce themselves to each other. Can also be used by the GM as a jumping off point for major plots.
 
 - Why was the summit called? What is it for? What is being discussed?
 - Does something happen *during* the summit that causes or foreshadows the coming Big Threat.
-- Maybe not *all* kingdoms are in attendence; what does it say about that kingdom that it did not come to the summit despite being invited.
+- Maybe not *all* kingdoms are in attendance; what does it say about that kingdom that it did not come to the summit despite being invited.
 
 This could also be the only expected "session" of the game for those that want to organize one, especially allowing a good space for something like a session zero. Perhaps some tables routinely call summits and play them out with one-shot sessions when people's generally busy schedules line up.
 
@@ -139,3 +139,26 @@ This could also be the only expected "session" of the game for those that want t
 Wandering behemoths. These would be represented by single units in the game map that are not associated with any kingdom. They have a base strength of 2 or greater, and their movement is random (roll a d6 and travel in that direction via the hex grid).
 
 - add a kingdom class that can create a behemoth unit during one of the later Ages.
+
+---
+
+Points into the Wealth track can be used to buy stuff in a Marketplace.
+
+- The Marketplace is filled by either the GM or by players.
+- It probably costs a writ to buy anything from the Marketplace, because this also acts to move the Might/Wealth scale back towards middle.
+- Items listed in the Marketplace by the GM always cost 1 Wealth, but players can list their own prices for things they'd like to sell
+
+No idea what would actually be available in the Marketplace. Some ideas:
+
+- Special units
+	- perhaps there are mercenary units that belong to the highest bidder
+- Immediately finish an Agenda
+	- can be resold after use
+- Passive Writ generation (+x every round)
+	- don't love this one, too powerful and would likely never get traded
+		- unless it is single use like the others, i.e. get 3 writs for the price of 1, but can't be used the by same kingdom in consecutive rounds
+			- you can either sell it to another kingdom now for some Wealth
+			- or you can keep it for 2 rounds from now when you can use it again (repeat x times)
+- Free single use writs (i.e. Make a prediction for free when played)
+	- can be resold after use
+- any unit or landmark can be sold, including cities/population centers
