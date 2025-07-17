@@ -34,9 +34,13 @@ Order ⇔ Chaos
 - Stability
 
 **Wealth**: Resources, Coin, Assets, Credits
+
 **Law**: Stability, Order
+
 **Sovereignty**: Autonomy, Freedom
+
 **Prestige**: Honor, Stature, Reputation, Status
+
 **Infamy**: Crave, Notoriety,
 
 ## Alternative Tracker History Splits
