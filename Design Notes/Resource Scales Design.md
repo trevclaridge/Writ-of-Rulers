@@ -3,8 +3,11 @@
 ## Alternate Trackers
 
 Magic ⇔ Science
+
 Law ⇔ Liberty
+
 Liberty ⇔ Loyalty
+
 Order ⇔ Chaos
 
 ### Alternative Stat Words
