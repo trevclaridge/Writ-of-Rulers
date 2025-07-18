@@ -34,6 +34,14 @@
 | Second Age | You may spend all your writs for a round to create a **Prophecy**. Work with the GM to create an Agenda of magnificent consequence (similar to those seen in the Make a Big Play writ). This agenda is your Prophecy and is advanced every round; when the agenda finishes, the Prophecy comes to pass and the world advances to the Final Age. |
 | Final Age  | TODO, You may create a Prophecy that ends the game/world.                                                                                                                                                                                                                                                                                                                                          |
 
+### The Merchants
+
+| Age        | Ability                                                                                                                                                                                                                                                                                                                                         |
+| ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Early Age  | You always start a round with 3 Wealth to spend, regardless of the position of your Might/Wealth scale.                                                                                                                                                                                                                                           |
+| Second Age | You get first pick should the GM list any new products in the World Market.|
+| Final Age  | Buying any product costs 2 fewer Wealth for you than listed. This only affects your Wealth value--the lister still receives the agreed upon value in full. TODO: this effectively generates Wealth in the entire ecosystem.                                                                                                                                                                                                                                                                                                                                    |
+
 ## World Specific
 
 ## The Elves of the Grove
