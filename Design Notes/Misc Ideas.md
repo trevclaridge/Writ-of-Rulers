@@ -162,3 +162,11 @@ No idea what would actually be available in the Marketplace. Some ideas:
 - Free single use writs (i.e. Make a prediction for free when played)
 	- can be resold after use
 - any unit or landmark can be sold, including cities/population centers
+
+---
+
+"Escalations" 
+
+Instead of having some of the more advanced rules be in the optional section, make them escalations of the base rules. Once one player performs them, they become available to everyone. If no one performs one of the escalations, then everyone knows for a fact that they are not in play. Make a world event whenever an escalation is performed.
+
+For example, the external cutting of communication of the Send a Delegate writ. Everybody knows when that escalation is first used. Maybe even make the offending party known publicly.
