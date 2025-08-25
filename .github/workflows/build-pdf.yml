@@ -33,7 +33,7 @@ jobs:
             --standalone
             --css="styles.css"
             --output="Writ_of_Rulers_v${{ github.run_number }}.pdf"
-            -V papersize:letter
+            --variable papersize:letter
             --pdf-engine=weasyprint
             --metadata title="Writ of Rulers v${{ github.run_number }}"
             --metadata author="Trevor Claridge"
