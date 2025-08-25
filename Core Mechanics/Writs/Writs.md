@@ -6,4 +6,4 @@ Writs represent the basic steps and procedures fundamental to running a kingdom.
 
 At the start of every round, players will roll a die to determine how many writs their ruler may take that round; the result of the die roll + 1 is the number of writs the ruler has at their disposal for the upcoming round. Additionally, rulers may take 1 extra writ for each of their resource trackers they had balanced over their fulcrums at the end of the previous round.
 
-Writs gained at the beginning of a new round but are not used that round roll over to the next round, but are lost if not used by the end of that second round.
+Writs not used by the end of a round are lost, though some special circumstances or rules may allow unused writs to roll over between rounds.
