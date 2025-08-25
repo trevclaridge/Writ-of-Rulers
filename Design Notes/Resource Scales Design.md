@@ -1,5 +1,7 @@
 # Resource Scales Design Notes
 
+I think I like single syllable Resource names. Keep in mind, you can use words that are more lyrical, and less representative of the resource' use, as long as you adaquetly explain the idea behind the resource.
+
 ## Alternate Trackers
 
 Magic ⇔ Science
@@ -19,6 +21,10 @@ Intelligence ⇔ Harmony
 Intelligence ⇔ Broadcast
 
 Tradition ⇔ Progress
+
+Law ⇔ Self
+
+Intel ⇔ Word
 
 ### Alternative Stat Words
 
