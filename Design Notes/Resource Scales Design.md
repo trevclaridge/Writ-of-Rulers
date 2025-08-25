@@ -10,6 +10,16 @@ Liberty ⇔ Loyalty
 
 Order ⇔ Chaos
 
+Intelligence ⇔ Civics
+
+Intelligence ⇔ Diplomacy
+
+Intelligence ⇔ Harmony
+
+Intelligence ⇔ Broadcast
+
+Tradition ⇔ Progress
+
 ### Alternative Stat Words
 
 - Influence
@@ -22,6 +32,7 @@ Order ⇔ Chaos
 - Legacy
 - Religion
 - Tradition
+- Progress
 - Belief
 - Industry
 - Agency
@@ -32,6 +43,14 @@ Order ⇔ Chaos
 - Patriotism
 - Nationalism
 - Stability
+- Broadcast
+- Diplomacy
+- Optics
+- Accordance
+- Negotiation
+- Promise
+- Oath
+- Harmony
 
 **Wealth**: Resources, Coin, Assets, Credits
 
