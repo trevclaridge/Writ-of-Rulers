@@ -1,3 +1,7 @@
+@page {
+  size: Letter;
+}
+
 p {
   line-height: 1.8em;
 }
